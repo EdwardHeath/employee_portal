@@ -1,5 +1,7 @@
 .container {
     height: 100vh;
+    background: rgb(0, 0, 36);
+    background: linear-gradient(to bottom right, rgba(0, 0, 36, 1) 0%, rgba(175, 175, 212, 1) 0%, rgba(0, 212, 255, 1) 100%);
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 50px 1fr 25px;
