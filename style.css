@@ -1,0 +1,30 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 50px 1fr 25px;
+    grid-template-areas:
+        "header header"
+        "sidebar body"
+        "footer footer"
+}
+
+.container > div {
+    border: 2px solid black;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.body {
+    grid-area: body;
+}
+
+.footer {
+    grid-area: footer;
+}
